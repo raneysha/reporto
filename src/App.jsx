@@ -5,6 +5,7 @@ import Skills from './layouts/Skills.jsx'
 import Timeline from './layouts/Timeline.jsx'
 import image1 from './assets/project_1_rubri.png'
 import { Link } from "react-router";
+import Footer from './components/Footer.jsx'
 function App() {
   return (
     <div className='h-full w-full mx-auto max-w-[47.5rem] p-6'>
@@ -61,6 +62,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

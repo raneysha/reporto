@@ -2,12 +2,13 @@ import './App.css'
 import Navbar from './layouts/navbar.jsx'
 import Card from './components/Card.jsx'
 import Carousel from './components/Carousel.jsx'
+import Footer from './components/Footer.jsx'
 function List() {
   return (
     <div className='h-full w-full mx-auto max-w-[47.5rem] p-6'>
       <Navbar />
       <div className='h-full w-full mx-auto'>
-        <div className='mb-5 pt-16 flex justify-between items-center mx-3 gap-10 max-md:flex-col max-md:text-center'>
+        <div className='mb-5 pt-12 md:pt-16 flex justify-between items-center  gap-10 max-md:flex-col max-md:text-center'>
           <h5 class="md:mb-4 md:mt-6 text-xl font-semibold tracking-tight text-white">Rubri Logo and Typography <br />
             <span className='font-light text-lg tracking-wider'>Portfolio Website</span>
           </h5>
@@ -27,10 +28,10 @@ function List() {
             </a>
           </div>
         </div>
-        <div className='mx-3 w-full'>
+        <div className=' w-full'>
           <p class="mb-3 font-normal text-gray-300"><span className='text-white'>Rubri’s portfolio </span>is a professional showcase of specialized logo and typography services, supported by a small network of illustrators and animators. The website communicates availability for commissions, strong branding identity, and a clear artistic focus.</p>
         </div>
-        <div className='mt-16 mx-3 w-full'>
+        <div className='mt-16  w-full'>
           <h5 className='mb-4 mt-6 text-xl font-semibold tracking-tight text-white'>Tech Used</h5>
           <div className='text-white grid grid-cols-5 gap-5 max-md:grid-cols-4 max-sm:grid-cols-3 max-[500px]:grid-cols-2'>
             <Card name="Tailwind">
@@ -47,16 +48,18 @@ function List() {
             </Card>
           </div>
         </div>
-        <div className='mt-16 mx-3 w-full'>
+        <div className='mt-16  w-full'>
           <h5 className='mb-4 mt-6 text-xl font-semibold tracking-tight text-white'>Key Features</h5>
           <h5 className='my-1 text-lg font-light tracking-wide text-white'><span className='mr-2'>🎨</span>Unique and Personalized Design</h5>
           <h5 className='my-1 text-lg font-light tracking-wide text-white'><span className='mr-2'>⚡</span>Interactive UX with minimal navigation</h5>
           <h5 className='my-1 text-lg font-light tracking-wide text-white'><span className='mr-2'>💻</span>Credits for every works involved</h5>
         </div>
-        <div className='mt-16 mx-3 w-full'>
+        <div className='mt-10  w-full'>
           <h5 className='mb-4 mt-6 text-xl font-semibold tracking-tight text-white'>Overview</h5>
+          <Carousel />
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
