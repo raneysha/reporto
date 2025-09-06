@@ -5,7 +5,7 @@ import Carousel from './components/Carousel.jsx'
 import Footer from './components/Footer.jsx'
 function List() {
   return (
-    <div className='h-full w-full mx-auto max-w-[47.5rem] p-6'>
+    <div id='atas' className='h-full w-full mx-auto max-w-[47.5rem] p-6'>
       <Navbar />
       <div className='h-full w-full mx-auto'>
         <div className='mb-5 pt-12 md:pt-16 flex justify-between items-center  gap-10 max-md:flex-col max-md:text-center'>
