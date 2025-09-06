@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './layouts/navbar.jsx'
+import Navbar from './layouts/Navbar.jsx'
 import Card from './components/Card.jsx'
 import Carousel from './components/Carousel.jsx'
 import Footer from './components/Footer.jsx'

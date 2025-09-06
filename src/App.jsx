@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './layouts/navbar.jsx'
+import Navbar from './layouts/Navbar.jsx'
 import Jumbotron from './layouts/Jumbotron.jsx'
 import Skills from './layouts/Skills.jsx'
 import Timeline from './layouts/Timeline.jsx'
