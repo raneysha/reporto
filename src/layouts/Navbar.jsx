@@ -1,5 +1,10 @@
 import { HashLink } from 'react-router-hash-link';
-function navbar() {
+import { initFlowbite } from 'flowbite'
+import { useEffect } from 'react';
+function Navbar() {
+  useEffect(() => { 
+    initFlowbite();
+  }, [])
   return (
     <nav class="border-gray-200 bg-gray-900">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -29,4 +34,4 @@ function navbar() {
     </nav>
   )
 }
-export default navbar
+export default Navbar
