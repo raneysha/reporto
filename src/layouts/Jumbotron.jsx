@@ -11,6 +11,7 @@ function jumbotron() {
           <span className='ml-2 text-slate-400'>
             I'm a <br /> Web Developer.
           </span>
+          <br className='block md:hidden'/>
           <span class="mx-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-1 rounded-sm dark:bg-gray-700 dark:text-blue-200 border border-blue-400">
             <span className='p-1 mb-px mr-1.5 inline-block bg-blue-500 rounded-full'></span>
             Open to work</span>

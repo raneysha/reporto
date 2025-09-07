@@ -26,14 +26,16 @@ function App() {
                   <h5 class="mb-4 mt-6 text-2xl font-bold tracking-tight text-white">Rubri Logo and Typography</h5>
                 </HashLink>
                 <p class="mb-3 font-normal text-gray-400">Rubri’s portfolio is a professional showcase of specialized logo and typography services, supported by a small network of illustrators and animators. The website communicates availability for commissions, strong branding identity, and a clear artistic focus.</p>
-                <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-blue-900 text-blue-300">
-                  Tailwind CSS</span>
-                <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-[#8b7c03] text-[#fdf9d5]">
-                  Javascript</span>
-                <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-yellow-900 text-yellow-300">
-                  HTML</span>
-                <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-purple-900 text-purple-300">
-                  CSS</span>
+                <div className='flex flex-wrap gap-y-1'>
+                  <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-blue-900 text-blue-300">
+                    Tailwind CSS</span>
+                  <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-[#8b7c03] text-[#fdf9d5]">
+                    Javascript</span>
+                  <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-yellow-900 text-yellow-300">
+                    HTML</span>
+                  <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full bg-purple-900 text-purple-300">
+                    CSS</span>
+                </div>
                 <div className='flex justify-between mt-4'>
                   <div class="inline-flex rounded-md shadow-xs" role="group">
                     <a href='https://raneysha.github.io/rubri-logos/' type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium  border rounded-s-lg  focus:z-10 focus:ring-2 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 focus:ring-blue-500 focus:text-white">
